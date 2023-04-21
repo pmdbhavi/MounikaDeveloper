@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-container {
+    background-color: #f79797;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 20px;
+    min-width: 100vw;
+}
+
+.image {
+    width: 50px;
+}
+
+.img-con {
+    border: 3px solid #17054f;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    color: #17054f;
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.name {
+    color: #17054f;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.role {
+    color: #17054f;
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.hr {
+    border: 2px solid #17054f;
+    height: 20vh;
+    margin: 0px;
+}
+
+.address-con {
+    color: #17054f;
+    font-family: "Roboto";
+    font-size: 12px;
+    border-left: 5px solid #17054f;
+}
+
+.address {
+    margin: 0px;
+}
+
+.hr1 {
+    width: 85%;
+    border: 2px solid #17054f;
+    margin: 0px;
+    align-self: flex-end;
+}
+
+.work {
+    color: #17054f;
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.about {
+    font-family: "Roboto";
+    font-size: 12px;
+    color: #17054f;
+}
+
+.year {
+    font-family: "Roboto";
+    font-size: 12px;
+    color: #17054f;
+    margin: 10px;
+}
+
+.roles {
+    color: #17054f;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.dot-image {
+    height: 15px;
+    margin: 2px;
+}
+
+.skill {
+    color: #17054f;
+    font-family: "Roboto";
+    font-size: 15px;
+    margin: 2px;
+}
+
+.skills-con {
+    border-right: 4px solid #17054f;
+}
+
+.i-image {
+    height: 50%;
+    width: 70%;
+    margin: 10px;
+}
+
+@media screen and (max-width:576px) {
+    .name {
+        font-size: 15px;
+    }
+
+    .roles {
+        font-size: 10px;
+    }
+
+    .skill {
+        font-size: 10px;
+    }
+
+    .image {
+        width: 20px;
+    }
+
+    .year {
+        font-size: 8px;
+    }
+
+    .about {
+        font-size: 8px;
+    }
+
+    .profile {
+        font-size: 10px;
+    }
+}
